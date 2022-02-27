@@ -3,6 +3,7 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  padding: 0.5em;
 }
 
 .logo {
@@ -11,12 +12,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* flex-grow: 0, flex-shrink: 1, flex-basis: auto */
+  flex: 0 1 auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  /* flex-grow: 0, flex-shrink: 1, flex-basis: auto */
+  flex: 0 1 auto;
+  padding: 0.5em;
 }
 
 a {
