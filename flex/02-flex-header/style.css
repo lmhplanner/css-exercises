@@ -25,6 +25,14 @@ ul {
   padding: 0.5em;
 }
 
+.left-links li {
+  padding-right: 1em;
+}
+
+.right-links li {
+  padding-left: 1em;
+}
+
 a {
   font-size: 22px;
   background: white;
